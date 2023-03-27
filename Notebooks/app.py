@@ -38,7 +38,12 @@ fare = st.number_input("Fare")
 
 # Taking input of sex_Male from the user in the form of 0 and 1
 
-sex_Male = st.selectbox("Male", ["0", "1"])
+gender = st.selectbox("Sex", ["Male", "Female"])
+
+if gender == "Male":
+    sex_Male = 1
+else:
+    sex_Male = 0
 
 # Taking input of embarked_C from the user in the form of 0 and 1
 
