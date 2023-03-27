@@ -10,7 +10,7 @@ import pickle
 
 # Loading the pickle file
 
-with open("model.pkl", "rb") as f:
+with open(r"C:\Users\harsh\College\ML-Assignments\Notebooks\model.pkl", "rb") as f:
     model = pickle.load(f)
     pass
 
