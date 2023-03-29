@@ -10,7 +10,7 @@ import pickle
 
 # Loading the pickle file
 
-with open(r"C:\Users\ds12\College\ML-Assignments\Notebooks\model.pkl", "rb") as f:
+with open(r"C:\Users\harsh\College\ML-Assignments\Notebooks\model.pkl", "rb") as f:
     model = pickle.load(f)
     pass
 
@@ -30,7 +30,7 @@ sibsp = st.slider("Siblings/Spouses Aboard", 0, 10)
 
 # Taking parch as input from the user in integer form
 
-parch = st.slider("Parents/Children Aboard", 0, 10)
+parch = st.slider("Parents/Children Aboard", 0, 4)
 
 # Taking fare as input from the user in integer form
 
